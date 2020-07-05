@@ -37,7 +37,7 @@ if (empty($_SESSION['email'])) {
 	   mysqli_close($conn);
 	} 
 	else {
-    $api = new Instamojo\Instamojo('de7a09f65c863d2fe7d13569e710ba69', 'af3c091d3e630443cef0e11edb0fdc6c','https://www.instamojo.com/api/1.1/');
+    $api = new Instamojo\Instamojo('', '','https://www.instamojo.com/api/1.1/');
 
 
     try {
